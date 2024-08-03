@@ -49,7 +49,7 @@ const Navbar = () => {
 
     const [isCartOpen, setIsCartOpen] = React.useState(false);
 
-    // Cart BUG FIXED
+    // Cart handleOpenCart BUG FIXED
     const handleOpenCart = () => {
         setIsCartOpen(true);
     };
